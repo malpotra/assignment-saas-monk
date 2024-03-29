@@ -1,0 +1,15 @@
+.create-review {
+    width: 30%;
+}
+.create-review-details {
+    display: grid;
+}
+.movie-dropdown {
+    margin: 0px; padding: 5px;
+}
+.movie-select {
+    width: 435px;
+    height: 40px;
+    border: 3px solid blue;
+    border-radius: 10px;
+}

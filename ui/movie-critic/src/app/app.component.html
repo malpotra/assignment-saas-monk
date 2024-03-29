@@ -1,0 +1,17 @@
+<div class="tool-bar color1">
+  <span style="margin-left: 10px; margin-right: auto;"><a (click)="goToHome()">MOVIECRITIC</a></span>
+
+  <span>
+    <button class="custom-button white font-color-blue" (click)="addNewMovie()">
+      <span class="custom-button-content">Add new movie</span>
+    </button>
+  </span>
+  <span>
+    <button class="custom-button blue font-color-white" (click)="addNewReview()">
+      <span class="custom-button-content">Add new review</span>
+    </button>
+  </span>
+</div>
+<div class="content">
+  <router-outlet></router-outlet>
+</div>

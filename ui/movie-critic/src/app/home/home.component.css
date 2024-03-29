@@ -1,0 +1,10 @@
+.movie-search {
+    height: 40px;
+    width: 300px;
+}
+.movie-card {
+    border-radius: 10px;
+}
+.movie-card.color2.movie-card-content {
+    padding: 3px;
+}

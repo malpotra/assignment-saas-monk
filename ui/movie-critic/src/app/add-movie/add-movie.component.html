@@ -1,0 +1,26 @@
+<br>
+<h2 style="margin: 5px;">Add a new movie</h2>
+<div class="create-movie">
+    <div class="create-movie-details">
+        <input class="movie-search input-blue-border"
+            style="margin: 5px; padding: 10px;"
+            type="text" 
+            placeholder="Name"
+            required="true"
+            [(ngModel)]="movieName"
+        >
+        <input class="movie-search input-blue-border"
+            style="margin: 5px; padding: 10px;"
+            type="date"
+            placeholder="Release Date"
+            required="true"
+            [(ngModel)]="releaseDate"
+            
+        >
+    </div>
+    
+    <button class="custom-button blue font-color-white" (click)="addNewMovie()">
+        <span class="custom-button-content">Create movie</span>
+    </button>
+</div>
+

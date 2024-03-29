@@ -1,0 +1,39 @@
+<br>
+<h2 style="margin: 5px;">Add a new review</h2>
+<div class="create-review">
+    <div class="create-review-details">
+        <div class="movie-dropdown movie-search input-blue-border">
+            <label for="movies-dropdown">Select a movie</label>
+            <br>
+            <select class="movie-select" aria-placeholder="Select a movie" required id="movies-dropdown" [(ngModel)]="movie">
+                <option *ngFor="let movie of movies; let i = index" [ngValue]="movie">{{movie.name}}</option>
+            </select>
+        </div>
+        <input class="movie-search input-blue-border"
+            style="margin: 5px; padding: 10px;"
+            type="text" 
+            placeholder="Name"
+            [(ngModel)]="reviewerName"
+        >
+        <input class="movie-search input-blue-border"
+            style="margin: 5px; padding: 10px;"
+            type="number"
+            placeholder="Rating out of 10"
+            required="true"
+            min="1"
+            max="10"
+            [(ngModel)]="rating"
+        >
+        <textarea class="movie-search input-blue-border"
+            style="margin: 5px; padding: 10px;"
+            placeholder="Comments"
+            required="true"
+            [(ngModel)]="comments"
+        ></textarea>
+    </div>
+    
+    <button class="custom-button blue font-color-white" (click)="addNewReview()">
+        <span class="custom-button-content">Add Review</span>
+    </button>
+</div>
+

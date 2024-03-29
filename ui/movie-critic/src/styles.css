@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+.custom-button {
+    float: right;
+    text-align: center;
+    padding: 7px 5px;
+    margin: 7px;
+    border: none;
+    border-radius: 5px;
+}
+.custom-button .custom-button-content {
+    padding: 5px 10px;
+    text-align: center;
+}
+.blue{
+    background-color: #685cf4;
+}
+input {
+    border: 3px solid #685cf4 !important;
+    border-radius: 10px;
+
+}
+input:focus {
+    border: 3px solid #685cf4 !important;
+    border-radius: 10px;
+
+}
+
+.white {
+    background-color: white;
+}
+.font-color-blue {
+    color: #685cf4;
+}
+.font-color-white {
+    color: white;
+}
+/*nav bar color*/
+.color1 {
+    background-color: #e3e8ed;
+}
+/*movie card color*/
+.color2 {
+    background-color: #e0defd;
+}
