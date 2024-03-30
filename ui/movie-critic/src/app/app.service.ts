@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AppService {
-  path: string = "http://localhost:4201/application/";
+  path: string = "http://ec2-13-233-73-50.ap-south-1.compute.amazonaws.com:4201/application/";
   constructor(private http: HttpClient) { }
 
 
